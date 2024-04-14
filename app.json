@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "SwiftNews",
+    "slug": "S-News",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/swiftsplash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.swarthy958.SNews"
+    },
+    "web": {
+      "favicon": "./assets/icons.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb455a71-cdd5-4d75-ac39-c6bdd57b6885"
+      }
+    }
+  }
+}
